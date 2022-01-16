@@ -1,0 +1,46 @@
+{
+  "name": "SolBatsClub EGG CARDS #161",
+  "symbol": "SBC",
+  "description": "Only 200 NFTs. This collection will be listed on Magic Eden's marketplace. Our EGG Cards will be used like key for new collection. You need own first collection + this EGG Cards collection for New Collection.",
+  "seller_fee_basis_points": 800,
+  "image": "image.png",
+  "external_url": "https://twitter.com/SolBatsClub",
+  "edition": 161,
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Solana"
+    },
+    {
+      "trait_type": "Frame",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Frame Background",
+      "value": "Stone"
+    },
+    {
+      "trait_type": "Egg",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eyes",
+      "value": "Red"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "image.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "Bt24u1AzwmKdo7oFumMuBnryG2NT8EVZQwg5ZbTkCeZP",
+        "share": 100
+      }
+    ]
+  }
+}

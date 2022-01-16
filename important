@@ -1,0 +1,31 @@
+Wrote new keypair to sbc-main.json
+==========================================================================  
+pubkey: D479Zy6Fkcj2g99kqpEyd3DkREGaD6PZCZfXawZfyUnc
+==========================================================================  
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:
+snow reform actress toss mom sibling layer cactus gate snap napkin neither  
+==========================================================================  
+
+Wrote new keypair to C:/Users/fugyd/.config/solana/id.json
+=======================================================================
+pubkey: 3ADBMYCdLq6Hk6Bon4QBfPWTh6pCkKhUC32D1hQAmAi3
+=======================================================================
+Save this seed phrase and your BIP39 passphrase to recover your new keypair:    
+omit chef sea pact pupil actress excess six another public entry mirror
+=======================================================================
+
+$ solana config get
+Config File: C:\Users\fugyd\.config\solana\cli\config.yml
+RPC URL: https://api.mainnet-beta.solana.com 
+WebSocket URL: wss://api.mainnet-beta.solana.com/ (computed)
+Keypair Path: C:\Users\fugyd\.config\solana\id.json
+Commitment: confirmed
+
+3ADBMYCdLq6Hk6Bon4QBfPWTh6pCkKhUC32D1hQAmAi3
+
+ts-node ~/metaplex/js/packages/cli/src/candy-machine-v2-cli.ts upload \
+    -e mainnet-beta \
+    -k C:/Users/fugyd/.config/solana/id.json \
+    -cp C:/Users/fugyd/metaplex/js/config.json \
+    -c example \
+    C:/Users/fugyd/metaplex/js/assetss
